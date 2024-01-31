@@ -23,14 +23,12 @@ body {
 
 .columna1 {
     
-    background-color: yellow;
-    border: 1px solid wheat;
+    background-color:rgb(146, 146, 230);
     width: 15%;
 }
 
 .columna2 {
-    
-    background-color: red;
+    background-color: rgb(146, 146, 230);
     width: 70%;
 }
 
@@ -61,12 +59,51 @@ body {
 .seccol1{
     width: 50%;
     float: left;
+    
 }
 
 .seccol2{
     width: 50%;
     float: left;
+    
 }
+
+.map{
+    text-align: center;
+    
+}
+
+#imgsitio1{
+    height:50vh;
+    background-image: url("../img/lugciudad1.jpg");
+    background-size:cover;
+    background-position: center;
+}
+
+#imgsitio2{
+    height:50vh;
+    background-image: url("../img/lugciudad2.jpg");
+    background-size:cover;
+    background-position: center;
+
+}
+
+#imgsitio3{
+    height:50vh;
+    background-image: url("../img/lugciudad3.jpg");
+    background-size:cover;
+    background-position: center;
+
+}
+
+#imgsitio4{
+    height:50vh;
+    background-image: url("../img/lugciudad4.jpg");
+    background-size:cover;
+    background-position: center;
+
+}
+
 
 
         

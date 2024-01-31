@@ -16,14 +16,14 @@
       <div class="columna1">
          <!-- Columna 1 -->
           <ul>
-            <li><a>Galería de Imagenes</a></li>
-            <li><a>Lugares de interes</a></li>
-            <li><a>Mapa de la poblacion</a></li>
-            <li><a>Últimas Noticias</a></li>
+            <li><a href="#galeria">Galería de Imagenes</a></li>
+            <li><a href="#lugares">Lugares de interes</a></li>
+            <li><a href="#map">Mapa de la poblacion</a></li>
+            <li><a href="#noticias">Últimas Noticias</a></li>
           </ul>
         </div>
       <div class="columna2"> <!--Div del centro (Carusel, Lugares de interés, Mapa de la Población)-->
-        <h2 class="Imgs">Galería de Imagenes</h2>
+        <h2 class="Imgs" id="galeria">Galería de Imagenes</h2>
         <div id="carouselExampleIndicators" class="carousel slide"> <!--Div apertura carusel-->
           <div class="carousel-indicators">
             <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
@@ -51,52 +51,61 @@
           </button>
         </div> <!--Div de cierre de carusel-->
 
-        <h2 class="sitios">Lugares de interés</h2>
+        <h2 class="sitios" id="lugares">Lugares de interés</h2>
 
         <section class="seccion"> <!--Apertura section (lugares de interés)-->
 
           <div class="seccol1"> <!--Columna 1 dentro de sección-->
-              <div class="card">
-                  <h4>Sitio 1</h4>
-                  <p>Idea random producida por la imaginaci贸n</p>
-                  <div id="img-1"></div>
-                  <!-- <img src="./img/scott-rodgerson-G6dXvXN2gVM-unsplash.jpg"> -->
+              <div class="card"> <!--Div superior columna 1-->
+                  <h4>Hall Of Fame</h4>
+                  <div id="imgsitio2"></div>
+                  
               </div>
+
+              <div class="card"> <!--Div superior columna 1-->
+                <h4>Universal Studios</h4>
+                <div id="imgsitio1"></div>
+                
+            </div>
           </div>
       
           <div class="seccol2"> <!--Columna 2 dentro de sección-->
               <div class="card">
-                  <h4>Sitio 2</h4>
-                  <p>Idea random producida por la imaginaci贸n</p>
-                  <div id="img-2"></div>
-                  <!-- <img src="./img/arya-krisdyantara-LTEfj149DLQ-unsplash.jpg"> -->
+                  <h4>Muelle de Santa Mónica</h4>
+                  <div id="imgsitio3"></div>
               </div>
-          </div>
-      </section> <!--Cierre sección (Lugares de interés)-->
 
-        
-        
+              <div class="card">
+                <h4>Beverly Hills</h4>
+                <div id="imgsitio4"></div> 
+            </div>
+          </div> <!--Div de cierre columna 2-->
+      </section> <!--Cierre sección (Lugares de interés)-->
+      <h2 class="map" id="map">Mapa de la Población</h2>
+      <!--Mapa de la población-->
+
+      <iframe class="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d423286.88282399887!2d-118.74138523738681!3d34.02003923266773!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80c2c75ddc27da13%3A0xe22fdf6f254608f4!2sLos%20%C3%81ngeles%2C%20California%2C%20EE.%20UU.!5e0!3m2!1ses!2ses!4v1706724831385!5m2!1ses!2ses" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
       </div> <!--Div de cierre del centro-->
     
       <div class="column3"> <!--Div columna noticias-->
-        <h2>Últimas Noticias</h2>
+        <h2 id="noticias">Últimas Noticias</h2>
         <br>
-        <h3>Noticia 1</h3>
-        <div class="paragrafo">
-            <img src="..." width="100%">
-            <p>xxxxxxxxxxxxxxxxxx</p>
+        <h4>Encuentran seis cadáveres tiroteados en una zona desértica cerca de Los Ángeles</h4>
+        <div>
+            <img src="./img/noticia1.png" width="100%">
+            <p>Las Autoridades encuentran seis cadáveres abasallados a tiros a 80km de los Ángeles. La investigación sigue abierta por el momento.</p>
         </div>
         <br>
-        <h3>Noticia2</h3>
-        <div class="paragrafo">
-            <img src="..." width="100%">
-            <p>xxxxxxxxxxxxxxxxxx</p>
+        <h4>Hugo Lloris deja el Tottenham y pone rumbo a la MLS.</h4>
+        <div>
+            <img src="./img/noticia2.png" width="100%">
+            <p>El actual ex-portero del conjunto inglés pone rumbo a Los Ángeles para firmar por 1+2 temporadas.</p>
         </div>
         <br>
-        <h3>Noticia3</h3>
-        <div class="paragrafo">
-            <img src="..." width="100%">
-            <p>xxxxxxxxxxxxxxxxxx</p>
+        <h4>Meghan Markle y el príncipe Harry se quieren mudar a Los Ángeles</h4>
+        <div>
+            <img src="./img/noticia3.png" width="100%">
+            <p>Según varias fuentes han dado a conocer de forma anónima al portal de noticias TMZ, los duques de Sussex están deseando encontrar una nueva residencia en La La Land después de decidir no buscar más en la otra zona en la que tenían puesto el punto de mira, Malibú, también al noroeste de la urbe pero mucho más cercana.</p>
         </div>
         <br>
       </div> <!-- Cierre Div columna noticias-->
