@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="./css/style.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+</head>
+<body>
+    <header  class="tituloI"><!--Foto fondo +titulo-->
+        <h1>Los Ángeles</h1>
+    </header>
+
+    <div class="contenedor">
+      <div class="columna1">
+         <!-- Columna 1 -->
+          <ul>
+            <li><a>Galería de Imagenes</a></li>
+            <li><a>Lugares de interes</a></li>
+            <li><a>Mapa de la poblacion</a></li>
+            <li><a>Últimas Noticias</a></li>
+          </ul>
+        </div>
+      <div class="columna2"> <!--Div del centro (Carusel, Lugares de interés, Mapa de la Población)-->
+        <h2 class="Imgs">Galería de Imagenes</h2>
+        <div id="carouselExampleIndicators" class="carousel slide"> <!--Div apertura carusel-->
+          <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+          </div>
+          <div class="carousel-inner">
+            <div class="carousel-item active imagencarrousel">
+              <img src="./img/imagen1.jpg" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item imagencarrousel">
+              <img src="./img/imagen2.jpg" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item imagencarrousel">
+              <img src="./img/imagen3.jpg" class="d-block w-100" alt="...">
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div> <!--Div de cierre de carusel-->
+
+        <h2 class="sitios">Lugares de interés</h2>
+
+        <section class="seccion"> <!--Apertura section (lugares de interés)-->
+
+          <div class="seccol1"> <!--Columna 1 dentro de sección-->
+              <div class="card">
+                  <h4>Sitio 1</h4>
+                  <p>Idea random producida por la imaginaci贸n</p>
+                  <div id="img-1"></div>
+                  <!-- <img src="./img/scott-rodgerson-G6dXvXN2gVM-unsplash.jpg"> -->
+              </div>
+          </div>
+      
+          <div class="seccol2"> <!--Columna 2 dentro de sección-->
+              <div class="card">
+                  <h4>Sitio 2</h4>
+                  <p>Idea random producida por la imaginaci贸n</p>
+                  <div id="img-2"></div>
+                  <!-- <img src="./img/arya-krisdyantara-LTEfj149DLQ-unsplash.jpg"> -->
+              </div>
+          </div>
+      </section> <!--Cierre sección (Lugares de interés)-->
+
+        
+        
+      </div> <!--Div de cierre del centro-->
+    
+      <div class="column3"> <!--Div columna noticias-->
+        <h2>Últimas Noticias</h2>
+        <br>
+        <h3>Noticia 1</h3>
+        <div class="paragrafo">
+            <img src="..." width="100%">
+            <p>xxxxxxxxxxxxxxxxxx</p>
+        </div>
+        <br>
+        <h3>Noticia2</h3>
+        <div class="paragrafo">
+            <img src="..." width="100%">
+            <p>xxxxxxxxxxxxxxxxxx</p>
+        </div>
+        <br>
+        <h3>Noticia3</h3>
+        <div class="paragrafo">
+            <img src="..." width="100%">
+            <p>xxxxxxxxxxxxxxxxxx</p>
+        </div>
+        <br>
+      </div> <!-- Cierre Div columna noticias-->
+ 
+
+    
+      
+    
+      
+    
+
+   
+
+    
+    
+    
+
+
+
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+</body>
+</html>

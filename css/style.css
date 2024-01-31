@@ -1,0 +1,73 @@
+header{
+        height: 100vh;
+        background-image: url("../img/fotofondo1.jpg");
+        background-size: cover;
+        background-position: center;
+        background-attachment: fixed;
+}
+.tituloI{
+    display: flex;
+    align-items: top;
+    justify-content: center;
+    text-align: center;
+    color:white
+}
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+}
+.contenedor {
+    display: flex;
+    width: 100%;
+}
+
+.columna1 {
+    
+    background-color: yellow;
+    border: 1px solid wheat;
+    width: 15%;
+}
+
+.columna2 {
+    
+    background-color: red;
+    width: 70%;
+}
+
+.column3 {
+    
+    background-color: rgb(233, 225, 225);
+    width: 15%;
+    
+}
+
+.imagencarrousel {
+    width: 100%;
+}
+
+.Imgs{
+    text-align: center;
+}
+
+.sitios{
+    text-align: center;
+}
+
+.seccion{
+    display: flex;
+    width: 100%;
+}
+
+.seccol1{
+    width: 50%;
+    float: left;
+}
+
+.seccol2{
+    width: 50%;
+    float: left;
+}
+
+
+        
+    
